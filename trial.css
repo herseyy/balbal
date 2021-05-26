@@ -116,7 +116,7 @@ a {
   font: 300 50px/1.2 "Oswald", sans-serif;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
   /*background-color: #686868;*/
 }
 
@@ -130,17 +130,17 @@ a {
 
 .input[type=text] {
   margin-bottom: 3px;
-  width: 68%;
+  width: 30vw;
   padding-top: 12px;
   padding-bottom: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
-  /*border: 1px solid blue;*/
+  border: 1px solid blue;
 }
 
 .submit[type=button] {
-  width: 28%;
+  width: 20vw;
   background-color: #32CD32;
   color: black;
   padding: 12px 20px;
@@ -148,7 +148,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
   font-size: 13px;
-  /*border: 1px solid blue;*/
+  border: 1px solid blue;
 }
 
 .submit:hover {
@@ -174,11 +174,12 @@ a {
 }
 
 p {
+  margin-left: -20%
   max-width: 400px;
   height: 35vh;
   font-size: 30px; 
   color: white;
-  /*border: 1px solid pink;*/
+  border: 1px solid pink;
 }
 
 .btn-group .hint {

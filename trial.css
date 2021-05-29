@@ -166,7 +166,7 @@ a {
 }
 
 p {
-  margin-left: -20%
+  margin-left: 10%;
   max-width: 400px;
   height: 35vh;
   font-size: 30px; 
@@ -223,20 +223,24 @@ p {
 }
 
 
+
 @media screen and (max-width: 320px) {
   h1 {
   font-size: 15px;
-  right: 15px;
+  right: 5px;
+  top: 5px;
 }
 
 a {
   font-size: 15px;
-  left: 15px;
+  left: 5px;
+  top: 5px;
 }
 
 .slideshow .slide .title {
-  margin-top: 50px;
-  font: 300 30px/1.2 "Oswald", sans-serif;
+  margin-top: 80px;
+  font: 300 20px/1.2 "Oswald", sans-serif;
+  border: 1px solid pink;
 }
 
 
@@ -259,7 +263,8 @@ a {
 p {
   max-width: 200px;
   height: 32vh;
-  font-size: 15px; 
+  font-size: 2px; 
+  border: 1px solid pink;
 }
 
 .btn-group .hint {

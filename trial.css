@@ -224,7 +224,7 @@ p {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 240px) {
   h1 {
   font-size: 15px;
   right: 5px;

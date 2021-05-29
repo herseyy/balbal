@@ -234,7 +234,7 @@ nav ul li {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 240px) {
   .more-space {
   margin-bottom: 30%;
 }

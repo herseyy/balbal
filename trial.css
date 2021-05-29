@@ -171,6 +171,7 @@ p {
   height: 35vh;
   font-size: 30px; 
   color: white;
+  border: 1px solid white;
 }
 
 .btn-group .hint {
@@ -223,7 +224,6 @@ p {
 }
 
 
-
 @media screen and (max-width: 240px) {
   h1 {
   font-size: 15px;
@@ -274,3 +274,53 @@ p {
 }
 
 }
+/*
+@media screen and (max-width: 400px) {
+
+h1 {
+  font-size: 18px;
+  right: 18px;
+}
+
+a {
+  font-size: 18px;
+  left: 18px;
+}
+
+.slideshow .slide .title {
+  font: 300 30px/1.2 "Oswald", sans-serif;
+}
+
+
+.slideshow .slide .text {
+  margin: 18px auto auto;
+}
+
+.input[type=text] {
+  margin-bottom: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+}
+
+.submit[type=button] {
+  padding: 8px 16px 8px 16px;
+  font-size: 13px;
+}
+
+
+p {
+  max-width: 200px;
+  height: 35vh;
+  font-size: 18px; 
+  border: 1px solid pink;
+}
+
+.btn-group .hint {
+  padding: 9px 18px;
+  font-size: 13px;
+}
+
+}
+
+*/
